@@ -71,13 +71,16 @@ function Main() {
                       each.id === 1 && <button type="button" className='buttons' key={ each.key}>{ each.name}</button>
                   ))}
               </ul>
-              <p className='sender-name'><TbBrandAsana/>More actions</p>
+              <p className='sender-name cone'><TbBrandAsana/>More actions</p>
               </div>
-          </div>
-              <HorizontalBarChartComponent FaMicrophone={FaMicrophone} buttons={ buttons} TbBrandAsana={TbBrandAsana} />
-          <div className='card-3 mt-5'>
-              <div className='d-flex justify-content-between align-items-center block-top'>
-                 <div className='d-flex justify-content-between align-items-cente'> <p> <FaLocationDot/></p>
+              </div>
+              <div className="card-2">
+                   <HorizontalBarChartComponent FaMicrophone={FaMicrophone} buttons={ buttons} TbBrandAsana={TbBrandAsana} />
+              </div>
+             
+          <div className='card-3'>
+              <div className='d-flex justify-content-between block-top'>
+                 <div className='d-flex justify-content-between align-items-center'> <p> <FaLocationDot/></p>
                   <p>Philz Coffee . </p>
                       <p>Location</p>
                   </div>
@@ -106,11 +109,12 @@ function Main() {
               </button>
               <ul className='buttons-cont'>
                   {buttons.map(each => (
-                      each.id === 3 && <button type="button" className='buttons' key={ each.key}>{ each.name}</button>
+                      each.id === 3 && <button type="button" className='buttons cthree' key={ each.key}>{ each.name}</button>
                   ))}   
               </ul>
               </div>
-               <p><TbBrandAsana/>More actions</p>
+               <p className='sender-name'
+               ><TbBrandAsana/>More actions</p>
              </div>
           </div>
           </div>

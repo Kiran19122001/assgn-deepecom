@@ -48,7 +48,7 @@ const HorizontalBarChartComponent = ({ FaMicrophone, buttons, TbBrandAsana }) =>
   }, [buttons, FaMicrophone, TbBrandAsana]);
 
   return (
-    <div className='card-2'>
+    
           <div>
               <div className='d-flex justify-content-between block-top'>
                   <p>See my availability:today</p>
@@ -70,8 +70,8 @@ const HorizontalBarChartComponent = ({ FaMicrophone, buttons, TbBrandAsana }) =>
      
        
       </div>
-      {/* Rest of your JSX */}
-    </div>
+    
+    
   );
 };
 

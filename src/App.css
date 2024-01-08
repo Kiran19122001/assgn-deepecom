@@ -5,7 +5,33 @@
     background: linear-gradient(to bottom, rgb(228, 228, 228), rgb(241, 229, 206), rgb(228, 228, 228));
   }
 
-  .section-1 {}
+  /* ... (your previous CSS) */
+
+  .cards {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    margin: 50px 20px 50px 30px;
+    gap: 20px;
+    width: calc(500px * 3 + 40px);
+    /* 500px card width * 3 cards + total gap */
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    flex: 0 0 auto;
+    width: 500px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+  }
+
+  /* Other existing CSS styles remain unchanged */
+
+  /* Other existing CSS styles remain unchanged */
 
   .App {
     padding-left: 50px;
@@ -56,14 +82,14 @@
     margin-left: 5px;
   }
 
-  .card-1 {
+  /* .card-1 {
 
     width: 500px;
     height: 550px;
     background-color: #fff;
     border-radius: 15px;
 
-  }
+  } */
 
   .block-top {
     background-color: rgb(238, 238, 238);
@@ -112,35 +138,39 @@
     padding: 10px 20px;
   }
 
-  .card-2 {
+  /* .card-2 {
 
     width: 500px;
     height: 551px;
     background-color: #fff;
     border-radius: 15px;
     padding-bottom: 20px;
-  }
+
+  } */
 
 
   .inside-card-2 {
     padding-left: 20px;
+    padding-right: 10px;
   }
 
   .coff-aval {
     width: 40%;
   }
 
-  .card-3 {
+  /* .card-3 {
 
-    width: 700px;
-    height: 520px;
+    width: 500px;
+    height: 550px;
     background-color: #fff;
     border-radius: 15px;
     padding-bottom: 10px;
-  }
+
+  } */
 
   .inisid-card-3 {
     padding-left: 30px;
+    padding-right: 10px;
   }
 
   .card3-b-t {
@@ -171,16 +201,16 @@
 
   .buttons-cont {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 400px;
   }
 
-  .cards {
+  /* .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 100px 20px 50px 30px;
-  }
+  } */
 
   .main-content {
     display: flex;
@@ -189,4 +219,12 @@
   button:hover {
     color: #fff;
     background-color: #000;
+  }
+
+  .cone {
+    margin-top: 55px;
+  }
+
+  .cthree {
+    margin-right: 5px;
   }
