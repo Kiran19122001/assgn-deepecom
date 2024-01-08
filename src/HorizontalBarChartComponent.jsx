@@ -65,7 +65,7 @@ const HorizontalBarChartComponent = ({ FaMicrophone, buttons, TbBrandAsana }) =>
                       each.id === 2 && <button type="button" className='buttons' key={each.key}>{each.name}</button>
                   ))}
               </ul>
-               <p className='sender-name'><TbBrandAsana/>More actions</p>
+               <p className='sender-name ctwo-ad'><TbBrandAsana/>More actions</p>
               </div>
      
        
