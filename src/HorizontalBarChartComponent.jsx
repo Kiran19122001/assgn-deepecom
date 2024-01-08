@@ -51,13 +51,13 @@ const HorizontalBarChartComponent = ({ FaMicrophone, buttons, TbBrandAsana }) =>
     
           <div>
               <div className='d-flex justify-content-between block-top'>
-                  <p>See my availability:today</p>
+                  <p className='card-coffe'>See my availability:today</p>
                   <p className='sender-name'><FaMicrophone/></p>
               </div>
               <div className='inside-card-2'>
                   <div>
                   <h2>Available until 1 PM</h2>
-                      <p className='coff-aval'>Would you like to create an event for Coffee with Marisa at 11AM?</p>
+                      <p className='coff-aval font-mail'>Would you like to create an event for Coffee with Marisa at 11AM?</p>
                        <canvas id='myChart'></canvas>
               </div>
               <ul className='buttons-container'>

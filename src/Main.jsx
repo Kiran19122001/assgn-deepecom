@@ -21,7 +21,7 @@ function Main() {
           <div className='section-1'>
             
           <div className="d-flex">
-              <MdOutlineTurnLeft/>
+              <MdOutlineTurnLeft color='grey'/>
               <h1 className="head">Review Inbox</h1>
           </div>
               <div >
@@ -47,8 +47,8 @@ function Main() {
           <div className='cards'>
               <div className='card-1'>
               <div className='d-flex justify-content-between block-top'>
-                  <div className='d-flex align-items-center'>
-                  <p><IoMdMail /></p>
+                  <div className='d-flex'>
+                  <p className='mail-ad-t'><IoMdMail /></p>
                   <p className='card-coffe'>Coffee? .</p>
                   <p className='sender-name'>Mail from Marisa Lu</p>
               </div>
@@ -80,12 +80,13 @@ function Main() {
              
           <div className='card-3'>
               <div className='d-flex justify-content-between block-top'>
-                 <div className='d-flex justify-content-between align-items-center'> <p> <FaLocationDot/></p>
-                  <p>Philz Coffee . </p>
+                      <div className='d-flex justify-content-between align-items-center'>
+                          <p className='mail-ad-t'> <FaLocationDot /></p>
+                  <p className='card-coffe'>Philz Coffee . </p>
                       <p>Location</p>
                   </div>
                   <div>
-                  <FaMicrophone/>
+                 <p className='sender-name'> <FaMicrophone/></p>
               </div>
               </div>
               
@@ -97,7 +98,7 @@ function Main() {
                  
                   <h2>Philz Coffee</h2>
                   <p className='card3-b-t'>Custom-blended java in a casual setting.</p>
-                  <p className='sender-name'>20686 Stevens Creek Blvd CUpertino,CA 95014</p> 
+                  <p className='sender-name cthre-ad-p'>20686 Stevens Creek Blvd CUpertino,CA 95014</p> 
               </div>
                   <div className='d-flex'>
                       <button type="button" className='dir-btn'>

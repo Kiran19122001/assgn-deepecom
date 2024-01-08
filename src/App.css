@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, rgb(228, 228, 228), rgb(241, 229, 206), rgb(228, 228, 228));
+    background: linear-gradient(to bottom, rgb(234, 234, 234), rgb(254, 238, 238), rgb(228, 228, 228));
   }
 
   /* ... (your previous CSS) */
@@ -29,9 +29,13 @@
     margin-right: 20px;
   }
 
-  /* Other existing CSS styles remain unchanged */
+  .card-1 {
+    height: 500px;
+  }
 
-  /* Other existing CSS styles remain unchanged */
+  .card-3 {
+    height: 500px;
+  }
 
   .App {
     padding-left: 50px;
@@ -41,10 +45,12 @@
     text-align: end;
     padding: 15px 30px 0px 0px;
     font-weight: 550;
+    color: rgb(144, 139, 139);
   }
 
   .head {
     padding-left: 15px;
+    color: rgb(188, 186, 186);
   }
 
   .task-add {
@@ -52,7 +58,7 @@
   }
 
   .first-cont {
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(207, 206, 206);
     border-radius: 10px;
     width: 300px;
     padding-top: 15px;
@@ -100,7 +106,7 @@
 
   .card-coffe {
     padding-left: 10px;
-    font-weight: 550;
+    font-weight: 650;
   }
 
   .card-inside-cof {
@@ -180,7 +186,7 @@
   }
 
   .gmaps-img {
-    height: 200px;
+    height: 150px;
     width: 100%;
   }
 
@@ -197,12 +203,15 @@
 
   .get-loc {
     padding-left: 20px;
+    margin-bottom: -2px;
+    margin-top: -20px;
   }
 
   .buttons-cont {
     display: flex;
     justify-content: space-between;
     width: 400px;
+    padding-left: 5px;
   }
 
   /* .cards {
@@ -221,10 +230,19 @@
     background-color: #000;
   }
 
-  .cone {
+  /* .cone {
     margin-top: 55px;
-  }
+  } */
 
   .cthree {
     margin-right: 5px;
+  }
+
+  .mail-ad-t {
+    margin-top: -1px;
+    margin-right: 5px;
+  }
+
+  .cthre-ad-p {
+    width: 200px;
   }
